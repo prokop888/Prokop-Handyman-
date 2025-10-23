@@ -1,4 +1,4 @@
-/* Color system */
+﻿/* Color system */
 :root {
   --blue-600: #1e6fb9;
   --blue-700: #195d99;
@@ -156,7 +156,7 @@ html { scroll-behavior: smooth; }
   border: 0;
   color: var(--btn-color);
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: .2px;
   cursor: pointer;
   box-shadow: var(--shadow-sm);
@@ -196,3 +196,11 @@ html { scroll-behavior: smooth; }
   .nav { gap: var(--space-3); }
   .nav__link { font-size: 0.95rem; }
 }
+
+/* Ensure hero intro text stays readable over the background */
+.hero .lead { color: rgba(255, 255, 255, 0.92); }
+
+.hero .btn--ghost { color: #ffffff; border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.08); }
+.hero .btn--ghost:hover { background: rgba(255,255,255,0.14); border-color: rgba(255,255,255,0.75); }
+
+
