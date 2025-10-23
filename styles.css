@@ -88,8 +88,8 @@ html { scroll-behavior: smooth; }
 .hero__bg {
   position: absolute; inset: 0; z-index: 1;
   background:
-    /* Subtle neutral darkening for readability */
-    linear-gradient(180deg, rgba(17, 24, 39, 0.42), rgba(17, 24, 39, 0.42)),
+    /* Darker neutral overlay to boost contrast */
+    linear-gradient(180deg, rgba(17, 24, 39, 0.55), rgba(17, 24, 39, 0.55)),
     /* Clean, bright interior after renovation */
     url('https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=2400&auto=format&fit=crop') center/cover no-repeat;
   filter: saturate(1.03) contrast(1.03);
